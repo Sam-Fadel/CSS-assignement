@@ -1,6 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
 * {
   box-sizing: border-box;
 }
+
 body {
+  background-color: #db524d;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+}
+/*Custom fonts */
+
+/*End custom fonts*/
+/*The header */
+.red-container {
+  background-color: #db524d;
+  margin-bottom: 10%;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-bar {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: flex-start;
+}
+.nav-button {
+  justify-content: flex-end;
+}
+.nav-button ul {
+  margin-left: -70%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-evenly;
+}
+.nav-button li {
+  list-style: none;
+}
+.nav-button a {
+  background-color: rgb(218, 108, 104);
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10% 15% 10% 10%;
+  border-radius: 5%;
+}
+
+.timer-container {
+  background-color: rgb(218, 108, 104);
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5%;
+}
+.timer-container ul {
+  display: flex;
+  justify-content: space-around;
+}
+.timer-container li {
+  list-style: none;
+  color: antiquewhite;
+  font-weight: 600;
+}
+.timer-container li:hover {
+  background-color: rgb(165, 101, 99);
+  padding: 1% 1% 1% 1%;
+  border-radius: 10%;
+}
+.count-down p {
+  font-size: 300px;
+  margin: 0;
+  text-align: center;
+  color: antiquewhite;
+}
+.button-start {
+  display: flex;
+  justify-content: center;
+}
+.button-start a {
+  text-decoration: none;
+  justify-content: center;
   background-color: antiquewhite;
+  color: #db524d;
+  padding: 20px 100px;
+  border-radius: 3%;
+}
+.task-description-container {
+  display: flex;
+
+  flex-direction: column;
+}
+.task-description-container p {
+  text-align: center;
+  color: antiquewhite;
+  font-weight: 400;
+  font-size: small;
+  margin-bottom: 0;
+}
+.task-description-container span {
+  margin-top: 0;
+  font-weight: 900;
+  font-size: large;
+}
+.tasks-container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  border-bottom: 2px solid antiquewhite;
+}
+.tasks-container p {
+  color: antiquewhite;
+  font-weight: 400;
+  font-weight: bold;
+}
+.tasks-container img {
+  width: 2%;
+}
+.tasks-steps {
+  display: flex;
+  flex-direction: column;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.task1 {
+  display: flex;
+  background-color: antiquewhite;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1%;
+  margin-bottom: 20px;
+}
+.task1-right,
+.task2-right {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
+}
+.task1-right img,
+.task2-right img {
+  margin-right: 10px;
+  width: 25%;
+}
+
+.task2-right {
+  color: rgb(156, 146, 146);
+}
+.task1-left {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.task1-left img {
+  margin-left: 10px;
+  width: 10%;
+}
+.taskX {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(128, 106, 105);
+  align-items: center;
+  border: 6px dotted rgb(194, 149, 147);
+}
+.taskX img {
+  width: 1%;
+}
+.taskX p {
+  color: antiquewhite;
+}
+
+.overview-tasks {
+  margin-top: 30px;
+  background-color: rgb(218, 108, 104);
+  border-radius: 6%;
+}
+.overview-tasks ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+.overview-tasks li {
+  list-style: none;
+  color: antiquewhite;
+}
+
+/*Stylling the seconf the part */
+.white-container {
+  background-color: antiquewhite;
+}
+
+.Title span {
+  font-weight: 900;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-weight: 600;
+}
+.red {
+  color: #db524d;
+}
+.text {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  border-top: 3px solid rgb(176, 186, 192);
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer li {
+  list-style: none;
+}
+.social-media-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.social-media-icons a {
+  margin: 0 10px 0 10px;
+}
+footer p {
+  text-align: center;
+}
+footer a {
+  color: #db524d;
+  text-decoration: none;
 }
